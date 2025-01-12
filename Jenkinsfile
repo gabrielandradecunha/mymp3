@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'checkout'
                 sh 'rm -rf mymp3'
-                sh 'git clone https://github.com/andradesysadmin/mymp3.git'
+                sh 'git clone https://github.com/homemlinux/mymp3.git'
             }
         }
         stage('Build') {
