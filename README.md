@@ -26,7 +26,8 @@ Você pode ir na pagina de playlists e testar o sistema de criação de playlist
 
 ## 🛠️ Construído com
 
-* [PHP](https://www.php.net/) - Linguagem usada
+* [PHP](https://www.php.net/) - Linguagem de script usada
+* [Kubernetes](https://kubernetes.io) - Orquestrador de containers
 * [Docker](https://www.docker.com/) - Container engine usada
 * [Jenkins](https://www.jenkins.io/) - Servidor de automação CI/CD
 * [Bootstrap](https://getbootstrap.com/) - Framework frontend usado
