@@ -18,12 +18,12 @@ docker run -d -p 8080:80 --name mymp3 andradesysadmin/mymp3:latest
 ```
 A aplicação estará disponivel na porta 8080 com o login e senha **admin**
 
-## Kubernets Install
+## Kubernets Kind Install
 
 ```bash
 #Clone repository and chose them
-git clone https://github.com/homemlinux/mymp3-kubernets
-cd mymp-kubernets
+git clone https://github.com/homemlinux/mymp3
+cd mymp3/k8s/
 
 #Create kind cluster and apply the manifests
 kind create cluster --config kind/kind-config.yaml
