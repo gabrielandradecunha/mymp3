@@ -53,7 +53,7 @@ else
     install
 fi
 
-git clone https://github.com/homemlinux/$APP_NAME
+git clone https://github.com/gabrielandradecunha/$APP_NAME
 cd $APP_NAME/ || exit 1
 
 if command -v docker >/dev/null 2>&1; then
