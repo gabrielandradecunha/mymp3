@@ -14,7 +14,7 @@ A "mágica" por trás da aplicação reside em três funções principais. A pri
 
 A aplicação foi pensada para rodar em containers com Docker, uma vez tendo o docker instalado (sinta-se livre para usar o script de instalação do docker que deixei na raiz do repisotório), com um esse simples comando você já terá a aplicação rodando em seu ambiente:
 ```
-docker run -d -p 8080:80 --name mymp3 andradesysadmin/mymp3:latest
+docker run -d -p 8080:80 --name mymp3 andradesysadm/mymp3:latest
 ```
 A aplicação estará disponivel na porta 8080 com o login e senha **admin**
 
@@ -22,7 +22,7 @@ A aplicação estará disponivel na porta 8080 com o login e senha **admin**
 
 ```bash
 #Clone repository and chose them
-git clone https://github.com/homemlinux/mymp3
+git clone https://github.com/gabrielandradecunha/mymp3
 cd mymp3/k8s/
 
 #Create kind cluster and apply the manifests
@@ -37,7 +37,7 @@ http://172.19.0.4:30080/
 
 ## Executando os testes
 
-Caso queira testar o upload de arquivos eu deixei um arquivo mp3 nos arquivos do projeto: <a href="https://github.com/andradedevweb/mymp3/blob/main/audio.mp3">clique aqui para acessar</a>
+Caso queira testar o upload de arquivos eu deixei um arquivo mp3 nos arquivos do projeto: <a href="https://github.com/gabrielandradecunha/mymp3/blob/main/audio.mp3">clique aqui para acessar</a>
 
 Você pode ir na pagina de playlists e testar o sistema de criação de playlists/pastas, inserir musicas nas playlists/banco de musicas ou simplesmente ouvir as as musicas já incluidas no sistema.
 
